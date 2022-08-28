@@ -304,7 +304,7 @@ div .background {
     flex-basis: auto;
     justify-content: flex-end;
     font-size: 23px;
-    width: 50%;
+    width: 100%;
   }
   
   div h1 {
