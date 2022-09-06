@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+  }
+
+@import './variables/variables';
+@import './secciones/index/header';
+@import './secciones/index/main';
+@import './secciones/index/footer';
+@import './media-queries/media-queries';

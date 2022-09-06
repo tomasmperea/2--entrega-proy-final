@@ -1,0 +1,14 @@
+header {
+  .encabezado {
+    background: linear-gradient(45deg, #bfcc94, #6d6448);
+  }
+
+  nav {
+    .navbar-brand {
+      &:hover {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
+}
