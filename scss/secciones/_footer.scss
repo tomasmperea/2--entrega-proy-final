@@ -1,9 +1,9 @@
 .border-top {
-  border-top: 4px solid #abb08c !important;
+  border-top: 4px solid $color-borde !important;
 }
 
 .footer {
-  background: linear-gradient(45deg, #bfcc94, #6d6448);
+  background: $gradiente;
 }
 
 div {
