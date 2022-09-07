@@ -7,8 +7,7 @@ header {
     .navbar-brand {
       img {
         &:hover {
-          width: $ancho-hover;
-          height: $largo-hover;
+          @include hover;
         }
       }
     }
