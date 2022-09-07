@@ -1,11 +1,28 @@
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none; }
-
-header .encabezado {
+.encabezado {
   background: linear-gradient(45deg, #bfcc94, #6d6448); }
 
-header nav .navbar-brand:hover {
+header nav .navbar-brand img:hover {
   width: 150px;
   height: 150px; }
+
+main {
+  background: #abb08c url(/img/background.jpg) no-repeat center top;
+  background-size: cover;
+  min-height: 95vh; }
+  main .container p {
+    margin-bottom: 0; }
+  main section div p {
+    margin-bottom: 15px;
+    color: #4b442f !important;
+    font-weight: 300 !important; }
+  main div .color-card {
+    background-color: #3d582e96; }
+
+.border-top {
+  border-top: 4px solid #abb08c !important; }
+
+.footer {
+  background: linear-gradient(45deg, #bfcc94, #6d6448); }
+
+div .d-flex {
+  align-items: center; }

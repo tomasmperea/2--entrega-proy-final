@@ -1,0 +1,27 @@
+main {
+  background: $background-main;
+  background-size: $background-size;
+  min-height: $main-size;
+
+  .container {
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  section {
+    div {
+      p {
+        margin-bottom: 15px;
+        color: #4b442f !important;
+        font-weight: 300 !important;
+      }
+    }
+  }
+
+  div {
+    .color-card {
+      background-color: #3d582e96;
+    }
+  }
+}

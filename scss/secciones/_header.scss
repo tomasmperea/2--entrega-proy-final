@@ -1,0 +1,16 @@
+.encabezado {
+  background: $gradiente-header;
+}
+
+header {
+  nav {
+    .navbar-brand {
+      img {
+        &:hover {
+          width: $ancho-hover;
+          height: $largo-hover;
+        }
+      }
+    }
+  }
+}

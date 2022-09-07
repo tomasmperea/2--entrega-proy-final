@@ -239,28 +239,28 @@ header .barra-navegadora .list-prin {
   background: #abb08c url(/img/background.jpg) no-repeat center top;
 } */
 
-main {
+/* main {
   background: #abb08c url(/img/background.jpg) no-repeat center top;
   min-height: 95vh;
-}
+} */
 
 /* footer {
   margin-top: 15px;
   background: #abb08c url(/img/background.jpg) no-repeat center top;
 }   */
-
+/* 
 .encabezado,
 .footer {
   background: linear-gradient(45deg, #bfcc94, #6d6448);
-}
+} */
 
-div footer .d-flex {
+/* div footer .d-flex {
   align-items: center;
-}
+} */
 
-div p {
+/* div p {
   margin-bottom: 0;
-}
+} */
 
 section div .color {
   color: #554b2e !important;
@@ -272,18 +272,18 @@ button .btn-success {
 }
 
 div .color-card {
-  background-color: #87ca6096;
+  background-color: #426d2a96;
 }
 
-section div p {
+/* section div p {
 
   margin-bottom: 15px;
 
-}
+} */
 
-div .border-top {
+/* div .border-top {
   border-top: 4px solid #abb08c !important;
-}
+} */
 
 div .background {
 
