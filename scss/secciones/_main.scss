@@ -1,27 +1,24 @@
 main {
-  background: $background-main;
-  background-size: $background-size;
-  min-height: $main-size;
+  @extend %estilo-main;
 
   .container {
     p {
       margin-bottom: 0;
+      font-family: $tipografia !important;
     }
   }
 
   section {
     div {
       p {
-        margin-bottom: 15px;
-        color: #4b442f !important;
-        font-weight: 300 !important;
+        @extend %estilo-parrafo;
       }
     }
   }
 
   div {
     .color-card {
-      background-color: #3d582e96;
+      background-color: $color-cards;
     }
   }
 }

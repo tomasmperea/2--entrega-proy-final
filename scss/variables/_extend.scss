@@ -1,0 +1,12 @@
+%estilo-main {
+  background: $background-main;
+  background-size: $background-size;
+  min-height: $main-size;
+}
+
+%estilo-parrafo {
+  margin-bottom: 15px;
+  color: #4b442f !important;
+  font-weight: 300 !important;
+  font-family: $tipografia !important;
+}

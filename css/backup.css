@@ -262,18 +262,18 @@ header .barra-navegadora .list-prin {
   margin-bottom: 0;
 } */
 
-section div .color {
+/* section div .color {
   color: #554b2e !important;
   font-weight: 300 !important;
-}
+} */
 
-button .btn-success {
+/* button .btn-success {
   color: #554b2e;
-}
+} */
 
-div .color-card {
+/* div .color-card {
   background-color: #426d2a96;
-}
+} */
 
 /* section div p {
 
@@ -285,18 +285,18 @@ div .color-card {
   border-top: 4px solid #abb08c !important;
 } */
 
-div .background {
+/* div .background {
 
   background: #abb08c url(/img/background.jpg) no-repeat center top;
   background-size: cover;
-}
+} */
 
-header .navbar-brand:hover {
+/* header .navbar-brand:hover {
   width: 150px;
   height: 150px;
-}
+} */
 
-@media (min-width: 996px) {
+/* @media (min-width: 996px) {
   .container {
     max-width: 1024px;
   }
@@ -312,7 +312,7 @@ header .navbar-brand:hover {
     justify-content: flex-end;
     font-size: 23px;
     width: 100%;
-  }
+  } */
   
   div h1 {
     font-size: 25px !important;
