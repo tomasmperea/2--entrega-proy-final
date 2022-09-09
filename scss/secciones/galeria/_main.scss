@@ -1,0 +1,63 @@
+main {
+  section {
+    div {
+      .tipo-texto {
+        font-family: $tipografia !important;
+        font-weight: bold !important;
+      }
+
+      p {
+        margin-bottom: 0;
+        color: $color-p;
+        font-family: $tipografia !important;
+      }
+
+      a {
+        .btn-tarifas {
+          backface-visibility: hidden;
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          display: inline-block;
+          transform: translateZ(0px);
+          transition-duration: 0.3s;
+          transition-property: box-shadow, transform;
+          vertical-align: middle;
+        }
+
+        .btn-tarifas:hover,
+        .hvr-grow-shadow:focus,
+        .hvr-grow-shadow:active {
+          box-shadow: 0 10px 10px -10px #c5ccc7;
+          transform: scale(1.1);
+          color: #d0dfd4;
+        }
+      }
+      .btn-hvr {
+        border: 0 none;
+        color: $color-nav-item;
+        cursor: pointer;
+        display: inline-block;
+        line-height: 1 !important;
+        margin-top: 6px;
+        padding: 16px;
+        text-decoration: none;
+      }
+
+      .hvr-grow-shadow {
+        backface-visibility: hidden;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        display: inline-block;
+        transform: translateZ(0px);
+        transition-duration: 0.3s;
+        transition-property: box-shadow, transform;
+        vertical-align: middle;
+      }
+      .hvr-grow-shadow:hover,
+      .hvr-grow-shadow:focus,
+      .hvr-grow-shadow:active {
+        box-shadow: 0 10px 10px -10px #222c25;
+        transform: scale(1.1);
+        color: #396345;
+      }
+    }
+  }
+}
