@@ -20,9 +20,40 @@ header nav .navbar-brand img:hover {
 header nav div ul--active {
   font-weight: 900; }
 
-main .container p {
-  margin-bottom: 0;
-  font-family: "Source Sans Pro", sans-serif !important; }
+header nav div li .btn-hvr {
+  border: 0 none;
+  color: #212b23;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1 !important;
+  margin-top: 6px;
+  padding: 14px;
+  text-decoration: none; }
+
+header nav div li .hvr-grow-shadow {
+  backface-visibility: hidden;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  display: inline-block;
+  transform: translateZ(0px);
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
+  vertical-align: middle; }
+
+header nav div li .hvr-grow-shadow:hover, header nav div li .hvr-grow-shadow:focus, header nav div li .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px #222c25;
+  transform: scale(1.1);
+  color: #396345; }
+
+main .contenedor-main {
+  margin-right: auto;
+  margin-left: auto; }
+  main .contenedor-main p {
+    margin-bottom: 0;
+    color: #1b2413;
+    font-family: "Source Sans Pro", sans-serif !important; }
+  main .contenedor-main .tipo-texto {
+    font-family: "Source Sans Pro", sans-serif !important;
+    font-weight: bold !important; }
 
 main div .color-card {
   background-color: #3d582e96; }
@@ -35,6 +66,9 @@ main div .color-card {
 
 div .d-flex {
   align-items: center; }
+
+div div .color-marca-agua {
+  color: #212b23; }
 
 @media (min-width: 996px) {
   .container {

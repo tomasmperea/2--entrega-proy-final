@@ -10,4 +10,11 @@ div {
   .d-flex {
     align-items: center;
   }
+
+  div {
+
+    .color-marca-agua {
+      color: $color-marca-agua;
+    }
+  }
 }

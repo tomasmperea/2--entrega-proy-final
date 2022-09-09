@@ -3,6 +3,7 @@
 $gradiente: linear-gradient(45deg, #bfcc94, #6d6448);
 $ancho-hover: 150px;
 $largo-hover: $ancho-hover;
+$color-nav-item: #212b23;
 
 // VARIABLES main
 
@@ -10,10 +11,13 @@ $background-main: #abb08c url(/img/background.jpg) no-repeat center top;
 $background-size: cover;
 $main-size: 95vh;
 $color-cards: #3d582e96;
+$color-p: #1b2413;
 
 // VARIABLES footer
 
 $color-borde: #abb08c;
+$color-marca-agua: $color-nav-item;
+
 
   
 

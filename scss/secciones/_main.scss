@@ -1,10 +1,18 @@
 main {
   @extend %estilo-main;
 
-  .container {
+  .contenedor-main {
     p {
       margin-bottom: 0;
+      color: $color-p;
       font-family: $tipografia !important;
+    }
+    margin-right: auto;
+    margin-left: auto;
+
+    .tipo-texto {
+      font-family: $tipografia !important;
+      font-weight: bold !important;
     }
   }
 
