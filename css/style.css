@@ -146,6 +146,32 @@ main div a .hvr-glow:focus,
 main div a .hvr-glow:active {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6); }
 
+main div form .btn-hvr {
+  border: 0 none;
+  color: #212b23;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1 !important;
+  margin-top: 6px;
+  padding: 16px;
+  text-decoration: none; }
+
+main div form .hvr-grow-shadow {
+  backface-visibility: hidden;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  display: inline-block;
+  transform: translateZ(0px);
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
+  vertical-align: middle; }
+
+main div form .hvr-grow-shadow:hover,
+main div form .hvr-grow-shadow:focus,
+main div form .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px #222c25;
+  transform: scale(1.1);
+  color: #adc4b4; }
+
 @media (min-width: 996px) {
   .container {
     max-width: 1024px; }
