@@ -13,6 +13,11 @@
   font-family: $tipografia !important;
 }
 
+%tipo-texto {
+  font-family: $tipografia !important;
+  font-weight: bold !important;
+}
+
 // mixin
 
 @mixin hover {

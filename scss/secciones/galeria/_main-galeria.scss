@@ -60,4 +60,34 @@ main {
       }
     }
   }
+
+  div {
+    a {
+      .btn-hvr {
+        border: 0 none;
+        color: $color-nav-item;
+        cursor: pointer;
+        display: inline-block;
+        line-height: 1 !important;
+        margin-top: 6px;
+        padding: 16px;
+        text-decoration: none;
+      }
+
+      .hvr-glow {
+        backface-visibility: hidden;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        display: inline-block;
+        transform: translateZ(0px);
+        transition-duration: 0.3s;
+        transition-property: box-shadow;
+        vertical-align: middle;
+      }
+      .hvr-glow:hover,
+      .hvr-glow:focus,
+      .hvr-glow:active {
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
 }

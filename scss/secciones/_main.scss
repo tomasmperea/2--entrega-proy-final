@@ -6,6 +6,7 @@ main {
       margin-bottom: 0;
       color: $color-p;
       font-family: $tipografia !important;
+      font-size: 1.2rem!important;
     }
     margin-right: auto;
     margin-left: auto;
@@ -14,6 +15,8 @@ main {
       font-family: $tipografia !important;
       font-weight: bold !important;
     }
+
+    // @extend .tipo-texto;
   }
 
   section {
