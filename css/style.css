@@ -10,6 +10,9 @@ main section div p {
   font-weight: 300 !important;
   font-family: "Source Sans Pro", sans-serif !important; }
 
+main section div .tipo-texto {
+  font-family: "Source Sans Pro", sans-serif !important; }
+
 .encabezado {
   background: linear-gradient(45deg, #bfcc94, #6d6448); }
 
@@ -171,6 +174,25 @@ main div form .hvr-grow-shadow:active {
   box-shadow: 0 10px 10px -10px #222c25;
   transform: scale(1.1);
   color: #adc4b4; }
+
+main section div .tipo-texto {
+  font-size: 1.5rem; }
+
+main section div .hvr-grow-shadow {
+  backface-visibility: hidden;
+  box-shadow: 0 0 0px;
+  display: inline-block;
+  transform: translateZ(0px);
+  transition-duration: 0.3s;
+  transition-property: box-shadow, transform;
+  vertical-align: middle; }
+
+main section div .hvr-grow-shadow:hover,
+main section div .hvr-grow-shadow:focus,
+main section div .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px #222c2500;
+  transform: scale(2.2);
+  color: #fdfdfd; }
 
 @media (min-width: 996px) {
   .container {

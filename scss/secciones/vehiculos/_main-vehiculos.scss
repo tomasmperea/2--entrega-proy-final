@@ -1,24 +1,26 @@
 main {
   section {
     div {
-      #image-carousel {
-        overflow: visible;
-        .column-1 {
-          padding-right: 12px;
-        }
-        .carousel-column-container {
-          display: flex;
-          flex-direction: row;
-        }
+      .tipo-texto {
+        @extend %tipo-texto;
+        font-size: 1.5rem;
+      }
 
-        .carousel-column {
-          display: flex;
-          flex-direction: column;
-          flex: 1 0;
-          margin: 0;
-          padding: 0;
-          list-style: none;
-        }
+      .hvr-grow-shadow {
+        backface-visibility: hidden;
+        box-shadow: 0 0 0px;
+        display: inline-block;
+        transform: translateZ(0px);
+        transition-duration: 0.3s;
+        transition-property: box-shadow, transform;
+        vertical-align: middle;
+      }
+      .hvr-grow-shadow:hover,
+      .hvr-grow-shadow:focus,
+      .hvr-grow-shadow:active {
+        box-shadow: 0 10px 10px -10px #222c2500;
+        transform: scale(2.2);
+        color: #fdfdfd;
       }
     }
   }

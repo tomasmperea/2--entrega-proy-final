@@ -1,0 +1,7 @@
+main {
+    section {
+        .tipo-texto {
+            @extend .tipo-texto;
+        }
+    }
+}
