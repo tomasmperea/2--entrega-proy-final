@@ -194,9 +194,37 @@ main section div .hvr-grow-shadow:active {
   transform: scale(2.2);
   color: #fdfdfd; }
 
+@media (min-width: 768px) {
+  .container {
+    max-width: 1024px; }
+  header nav img {
+    width: 200px;
+    height: 200px; }
+  div h1 {
+    font-size: 25px !important; }
+  div p {
+    font-size: 15px; } }
+
 @media (min-width: 996px) {
   .container {
     max-width: 1024px; }
+  header nav img {
+    width: 200px;
+    height: 200px; }
+  header .navbar-expand-lg .container-fluid .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+    font-size: 23px;
+    width: 100%; }
+  div h1 {
+    font-size: 25px !important; }
+  div p {
+    font-size: 15px; } }
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1440px; }
   header nav img {
     width: 200px;
     height: 200px; }
