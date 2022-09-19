@@ -17,6 +17,17 @@
   font-family: $tipografia !important;
 }
 
+%btn-hvr {
+  border: 0 none;
+  color: $color-nav-item;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1 !important;
+  margin-top: 6px;
+  padding: 16px;
+  text-decoration: none;
+}
+
 // mixin
 
 @mixin hover {

@@ -4,14 +4,6 @@
 
 header {
   nav {
-    .navbar-brand {
-      img {
-        &:hover {
-          @include hover;
-        }
-      }
-    }
-
     div {
       ul {
         &--active {
@@ -39,12 +31,14 @@ header {
           transition-duration: 0.3s;
           transition-property: box-shadow, transform;
           vertical-align: middle;
-      }
-      .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+        }
+        .hvr-grow-shadow:hover,
+        .hvr-grow-shadow:focus,
+        .hvr-grow-shadow:active {
           box-shadow: 0 10px 10px -10px #222c25;
           transform: scale(1.1);
           color: #396345;
-      }
+        }
       }
     }
   }
