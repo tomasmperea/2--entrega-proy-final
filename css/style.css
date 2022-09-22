@@ -78,10 +78,9 @@ main .contenedor-main {
   background: linear-gradient(45deg, #bfcc94, #6d6448); }
 
 div .d-flex {
-  align-items: center; }
-
-div div .color-marca-agua {
-  color: #212b23; }
+  display: flex !important;
+  justify-content: space-between;
+  margin: 0 auto; }
 
 main section div .tipo-texto {
   font-family: "Source Sans Pro", sans-serif !important;
@@ -216,7 +215,16 @@ main section div .hvr-grow-shadow:active {
   div h1 {
     font-size: 25px !important; }
   div p {
-    font-size: 15px; } }
+    font-size: 15px; }
+  div .d-flex {
+    display: flex !important;
+    justify-content: center !important; }
+  div .bi {
+    width: 75px !important;
+    height: 75px !important; }
+  div svg {
+    width: 30px !important;
+    height: 30px !important; } }
 
 @media (min-width: 996px) {
   .container {
@@ -228,19 +236,28 @@ main section div .hvr-grow-shadow:active {
     display: flex !important;
     flex-basis: auto;
     justify-content: flex-end;
-    font-size: 23px;
+    font-size: 25px;
     width: 100%; }
   div h1 {
     font-size: 25px !important; }
   div p {
-    font-size: 15px; } }
+    font-size: 15px; }
+  div .d-flex {
+    display: flex !important;
+    justify-content: center !important; }
+  div .bi {
+    width: 65px !important;
+    height: 65px !important; }
+  div svg {
+    width: 25px !important;
+    height: 25px !important; } }
 
 @media (min-width: 1024px) {
   .container {
     max-width: 1440px; }
   header nav img {
-    width: 200px;
-    height: 200px; }
+    width: 250px;
+    height: 250px; }
   header .navbar-expand-lg .container-fluid .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
@@ -250,4 +267,75 @@ main section div .hvr-grow-shadow:active {
   div h1 {
     font-size: 25px !important; }
   div p {
-    font-size: 15px; } }
+    font-size: 20px !important; }
+  div .d-flex {
+    display: flex !important;
+    justify-content: center !important; }
+  div .bi {
+    width: 65px !important;
+    height: 65px !important; }
+  div svg {
+    width: 25px !important;
+    height: 25px !important; } }
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 2560px; }
+  header nav img {
+    width: 250px;
+    height: 250px; }
+  header .navbar-expand-lg .container-fluid .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+    font-size: 23px;
+    width: 100%; }
+  div h1 {
+    font-size: 25px; }
+  div p {
+    font-size: 25px !important; }
+  div .d-flex {
+    display: flex !important;
+    justify-content: center !important; }
+  div .bi {
+    width: 75px !important;
+    height: 75px !important; }
+  div svg {
+    width: 35px !important;
+    height: 35px !important; } }
+
+@media (min-width: 2560px) {
+  header nav img {
+    width: 400px;
+    height: 400px;
+    padding-left: 10px; }
+  header .navbar-expand-lg .container-fluid .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+    font-size: 38px;
+    width: 100%; }
+  main .contenedor-main {
+    margin-right: auto;
+    margin-left: auto; }
+    main .contenedor-main p {
+      margin-bottom: 0;
+      color: #1b2413;
+      font-family: "Source Sans Pro", sans-serif !important;
+      font-size: 2.2rem !important; }
+    main .contenedor-main .tipo-texto {
+      font-family: "Source Sans Pro", sans-serif !important;
+      font-weight: bold !important;
+      line-height: 45px;
+      font-size: 4rem !important; }
+  div {
+    min-height: 20vh; }
+    div .d-flex {
+      display: flex;
+      justify-content: center !important; }
+    div .bi {
+      width: 170px !important;
+      height: 100px !important; }
+    div svg {
+      width: 70px !important;
+      height: 70px !important; } }

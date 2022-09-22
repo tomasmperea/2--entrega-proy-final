@@ -8,13 +8,8 @@
 
 div {
   .d-flex {
-    align-items: center;
-  }
-
-  div {
-
-    .color-marca-agua {
-      color: $color-marca-agua;
-    }
+    display: flex!important;
+    justify-content: space-between;
+    margin: 0 auto;
   }
 }
